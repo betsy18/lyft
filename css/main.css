@@ -124,11 +124,18 @@ section {
 }
 
 .amplify div, .good div{
-  outline: 1px solid green;
+
   position: absolute;
   width: 20%;
   height: 180px;
+  top: 143px;
+  left: 100px;
 }
+
+.amplify p, .good p, .june p{
+  margin-top:18px;
+}
+
 
 .amplify iframe{
   position: relative;
@@ -136,12 +143,12 @@ section {
 }
 
 .june div{
-  outline: 1px solid green;
   position: relative;
   width: 20%;
   height: 160px;
   float: right;
-  left: 160px;
+  left: 660px;
+  top: 630px;
 }
 
 .good iframe{
@@ -260,7 +267,6 @@ hr{
   border-radius: 18px;
   margin-right: 50px;
   margin-left: 10px;
-  padding: 8px;
-  
+  padding: 8px; 
 }
 
