@@ -118,6 +118,37 @@ img[alt="logo-white"]{
   max-width: 100%;
 }
 
+/*section*/
+section {
+  position: relative;
+}
+
+.amplify div, .good div{
+  outline: 1px solid green;
+  position: absolute;
+  width: 20%;
+  height: 180px;
+}
+
+.amplify iframe{
+  position: relative;
+  float: right;
+}
+
+.june div{
+  outline: 1px solid green;
+  position: relative;
+  width: 20%;
+  height: 160px;
+  float: right;
+  left: 160px;
+}
+
+.good iframe{
+  position: relative;
+  float: right;
+}
+
 
 /*footer*/
 
@@ -126,16 +157,16 @@ footer{
   text-align: center;
   color: #fff;
   background-color: #333447;
-  height: 450px;
+  top: 500px;
+  height: 550px;
 }
 
 footer figure{
-
   float: right;
   overflow: auto;
   position: relative;
-  top: 60px;
-  right: 435px;
+  top: -144px;
+  right: -435px; 
 }
 
 footer figure img{
@@ -146,9 +177,10 @@ footer figure img{
 }
 
 footer ul{
-    position: relative;
-    display: inline-block;
-    top: 50px;
+  position: relative;
+  display: inline-block;
+  top: 90px;
+  left: 180px;
 }
 
 footer li{
@@ -196,7 +228,7 @@ footer ul a:hover {
 
 footer div,hr{
   position: relative;
-  top: 80px;
+  bottom: 50px;
 }
 
 footer figure:hover, .icon:hover{
@@ -205,24 +237,30 @@ footer figure:hover, .icon:hover{
 
 hr{
   position: relative;
+  bottom: 40px;
   width: 45%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 40px; 
 }
 
 .icon{
   font-size: 18px;
   text-align: center;
   margin: 5px;
+  position: relative;
+  top: 170px;
+  width: 40%;
+  left: 550px;
 }
 
 .icon span{
   border: 1px solid #fff;
   border-radius: 18px;
-  margin-right: 16px;
+  margin-right: 50px;
   margin-left: 10px;
   padding: 8px;
+  
 }
 
