@@ -20,7 +20,7 @@ Gradiente morado: linear-gradient(#76278F, #2B1E66);
 header {
   background: linear-gradient(#2B1E66, #76278F);
   width: 100%; 
-  height: 1200px;
+  height: 1250px;
 }
 
 /*barra de navegación*/
@@ -96,11 +96,12 @@ img[alt="logo-white"]{
 
 .phone{
   position: absolute;
-  
 }
 
 .phone div{
-
+  position: relative;
+  bottom: 400px;
+  left: 100px;
 }
 
 /*estilos para la imagen del celular*/
@@ -109,8 +110,8 @@ img[alt="logo-white"]{
   float: right;
   width: 55%;
   height: 100px;
-  bottom: 650px;
-  left: 480px;
+  bottom: 280px;
+  left: 380px;
 }
 
 .phone img{
