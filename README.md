@@ -3,8 +3,7 @@
 
 Realización del ejercicio de lyft
 
-## Archivos utilizados
-
+## 
 
 ## 
 
